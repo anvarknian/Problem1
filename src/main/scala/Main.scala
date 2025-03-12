@@ -10,7 +10,7 @@ import scala.util.{Failure, Success, Try}
 
 object Main extends App {
 
-  print("-- \t Prime Division \t -- \t Anwar Knyane \t - \t alvinaspowa@gmail.com" +
+  print("-- \t Prime Division \t -- " +
     "\n\n\nType a number:")
 
   val numberInput = Try(new Scanner(System.in).nextLong())
